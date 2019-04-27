@@ -1,5 +1,6 @@
 body {
      color: white;
+     font-family: Verdana;
 }
 
 table {
@@ -44,4 +45,5 @@ input {
 
 button {
      margin-top: 15px;
+     font-family: Verdana;
 }
