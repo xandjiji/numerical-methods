@@ -10,7 +10,7 @@ function renderGrafico(iteracao, lnErros){
                     backgroundColor: 'rgba(255, 255, 255)',
                     borderColor:  'rgba(0, 0, 0)',
                     fill: false,
-                    pointRadius: 5,
+                    pointRadius: 3,
                     pointHoverRadius: 8,
                }]
           },

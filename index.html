@@ -23,6 +23,27 @@
                <canvas id="myChart"></canvas>
           </div>
 
+          <div class="metodos" align="center">
+               <label for="metodo">Escolha um método: </label>
+               <select id="metodo" class="metodo" name="metodo">
+                    <option value="bisseccao">Bissecção</option>
+                    <option value="cordas">Cordas</option>
+                    <option value="newton">Newton</option>
+                    <option value="ponto fixo">Ponto Fixo</option>
+                    <option value="secantes">Secantes</option>
+               </select>
+          </div>
+
+          <div class="funcoes" align="center">
+               <input id="f1" type="radio" name="funcao" value="a" checked> f(x) = x^2 − 2
+               <input id="f2" type="radio" name="funcao" value="b"> f(x) = e^-x − x
+               <input id="f3" type="radio" name="funcao" value="c"> f(x) = cos(x) − x
+          </div>
+
+          <div class="botao" align="center">
+               <button onclick="clicou()">Calcule</button>
+          </div>
+
           <div id="tabela" align="center">
                <script src="grafico.js"></script>
                <script src="tabela.js"></script>

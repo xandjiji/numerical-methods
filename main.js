@@ -1,5 +1,6 @@
 const erro = 0.000000000000001
-const funcao = 'a'
+var funcao = ''
+var metodo = ''
 
 // definindo funcoes (a), (b) e (c)
 function fx(x){
@@ -66,8 +67,46 @@ function phi(x){
 }
 
 
+function clicou(){
+
+     if(document.getElementById('f1').checked){
+          funcao = document.getElementById('f1').value;
+     }
+     if(document.getElementById('f2').checked){
+          funcao = document.getElementById('f2').value;
+     }
+     if(document.getElementById('f3').checked){
+          funcao = document.getElementById('f3').value
+     }
+
+     metodo = document.getElementById("metodo").value;
+
+     if(metodo == "bisseccao"){
+          bisseccao(0, 4)
+     }
+     if(metodo == "cordas"){
+          cordas(0, 4)
+     }
+     if(metodo == "newton"){
+          if(funcao == 'b'){
+               newton(0)
+          }else{
+               newton(11)
+          }
+
+     }
+     if(metodo == "ponto fixo"){
+          ponto_fixo(1)
+     }
+     if(metodo == "secantes"){
+          secantes(0, 4)
+     }
+
+
+}
+
 // bisseccao(0, 4)
 // cordas(0, 4)
-newton(11)
+// newton(11)
 // ponto_fixo(1)
 // secantes(0, 4)
