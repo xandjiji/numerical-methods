@@ -38,9 +38,7 @@ function bisseccao(a, b){
 
      // retorna resultado
      renderTabela(iteracoes, raizes, fRaizes, erros, lnErros)
+     renderGrafico(iteracoes, lnErros)
      return console.log(((a + b) / 2));
 
 }
-
-
-// ITERAÇAO    RAIZ      F(RAIZ)   ERRO      LN(ERRO)

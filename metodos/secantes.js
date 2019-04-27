@@ -29,5 +29,6 @@ function secantes(x0, x1){
 
      // retorna resultado
      renderTabela(iteracoes, raizes, fRaizes, erros, lnErros)
+     renderGrafico(iteracoes, lnErros)
      return console.log(x1);
 }

@@ -16,7 +16,7 @@ function newton(x0){
      // iterar ate que o o resultado fique menor que o erro
      while(math.abs(fx(x0)) > erro){
           x0 = (x0 - (fx(x0) / fxd(x0)))
-          
+
           // atualizando tabela
           iteracao++
           iteracoes.push(iteracao)
@@ -28,6 +28,7 @@ function newton(x0){
 
      // retorna resultado
      renderTabela(iteracoes, raizes, fRaizes, erros, lnErros)
+     renderGrafico(iteracoes, lnErros)
      return console.log(x0);
 
 }

@@ -23,6 +23,7 @@ function ponto_fixo(x0){
 
      // retorna resultado
      renderTabela(iteracoes, raizes, fRaizes, erros, lnErros)
+     renderGrafico(iteracoes, lnErros)
      return console.log(x0);
 
 }

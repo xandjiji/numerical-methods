@@ -3,7 +3,7 @@ function renderTabela(iteracoes, raizes, fRaizes, erros, lnErros){
 
      html += "<tr>";
 
-     html += "<th>Iteração</th>";
+     html += "<th>#</th>";
      html += "<th>Xn</th>";
      html += "<th>f(Xn)</th>";
      html += "<th>Erro</th>";
