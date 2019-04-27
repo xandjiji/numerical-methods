@@ -45,7 +45,11 @@ function renderGrafico(iteracao, lnErros){
           }
      };
 
+     if(window.chart && window.chart !== null){
+          window.chart.destroy();
+     }
+
      Chart.defaults.global.defaultFontColor = 'white';
      var myChart = document.getElementById('myChart').getContext('2d');
-     let teste = new Chart(myChart, config);
+     window.chart = new Chart(myChart, config);
 }
