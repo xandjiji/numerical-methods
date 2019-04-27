@@ -66,9 +66,8 @@ function phi(x){
 }
 
 
-
-cordas(0, 4)
-bisseccao(0, 4)
-newton(11)
-ponto_fixo(1)
-secantes(0, 4)
+ bisseccao(0, 4)
+// cordas(0, 4)
+// newton(11)
+// ponto_fixo(1)
+// secantes(0, 4)

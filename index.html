@@ -8,6 +8,9 @@
 
      <body style="background-color:#323639">
           <script src="libs/math.min.js"></script>
+          <script src="libs/Chart.min.js"></script>
+          <link rel="stylesheet" href="libs/bootstrap.min.css">
+          <link rel="stylesheet" href="style.css">
 
           <script src="metodos/bisseccao.js"></script>
           <script src="metodos/cordas.js"></script>
@@ -15,6 +18,36 @@
           <script src="metodos/ponto_fixo.js"></script>
           <script src="metodos/secantes.js"></script>
 
-          <script src="main.js"></script>
+
+
+          <!-- <div class="container">
+               <canvas id="myChart"></canvas>
+          </div> -->
+
+          <div id="tabela" align="center">
+               <script src="tabela.js"></script>
+               <script src="main.js"></script>
+          </div>
+
+
+          <script>
+               // let myChart = document.getElementById('myChart').getContext('2d');
+               //
+               // let equacao = new Chart(myChart, {
+               //      type: 'line',
+               //      data: {
+               //           labels: [],
+               //           datasets: []
+               //      },
+               //      options: {}
+               // });
+          </script>
+
+
+
+
+
+
+
      </body>
 </html>
