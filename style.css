@@ -47,3 +47,20 @@ button {
      margin-top: 15px;
      font-family: Verdana;
 }
+
+a:link {
+     color: #9d95d0;
+     text-decoration: none;
+}
+a:visited {
+     color: #9d95d0;
+     text-decoration: none;
+}
+a:hover {
+     color: #493e8e;
+     text-decoration: none;
+}
+a:active {
+     color: #483d8b;
+     text-decoration: none;
+}
