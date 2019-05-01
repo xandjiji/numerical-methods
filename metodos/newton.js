@@ -28,7 +28,7 @@ function newton(x0){
 
      // retorna resultado
      renderTabela(iteracoes, raizes, fRaizes, erros, lnErros)
-     renderGrafico(iteracoes, lnErros)
+     renderGrafico(lnErros)
      return console.log(x0);
 
 }
